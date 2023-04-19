@@ -375,7 +375,7 @@ public class TrelloAccountBoardPage extends WebElementUtility {
 
 	// =======================================
 	public String getTrelloAccountPageTitle() {
-		explicitWaitForTitles(driver, "Trello");
+		explicitWaitForTitles(driver, "Boards | Trello");
 		return driver.getTitle();
 	}
 
