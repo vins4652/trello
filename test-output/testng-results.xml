@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="10" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Trello home page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello home page is displayed and verified upon url.]]>
+    </line>
+    <line>
+      <![CDATA[Trello login page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello login page is displayed and verified upon url.]]>
+    </line>
+    <line>
+      <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[LogOut option is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+    </line>
+    <line>
+      <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon boardname.]]>
+    </line>
+    <line>
+      <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+    </line>
+    <line>
+      <![CDATA[LogOut option is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+    </line>
+    <line>
+      <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon boardname.]]>
+    </line>
+    <line>
+      <![CDATA[2 lists successfully created and varified upon count]]>
+    </line>
+    <line>
+      <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+    </line>
+    <line>
+      <![CDATA[LogOut option is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+    </line>
+    <line>
+      <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon boardname.]]>
+    </line>
+    <line>
+      <![CDATA[2 lists successfully created and varified upon count]]>
+    </line>
+    <line>
+      <![CDATA[Order of Lists before swapping]]>
+    </line>
+    <line>
+      <![CDATA[vinay]]>
+    </line>
+    <line>
+      <![CDATA[kumar]]>
+    </line>
+    <line>
+      <![CDATA[Order of Lists after swapping]]>
+    </line>
+    <line>
+      <![CDATA[kumar]]>
+    </line>
+    <line>
+      <![CDATA[vinay]]>
+    </line>
+    <line>
+      <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+    </line>
+    <line>
+      <![CDATA[LogOut option is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+    </line>
+    <line>
+      <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon boardname.]]>
+    </line>
+    <line>
+      <![CDATA[list successfully created and varified]]>
+    </line>
+    <line>
+      <![CDATA[Cards before sorting]]>
+    </line>
+    <line>
+      <![CDATA[sql]]>
+    </line>
+    <line>
+      <![CDATA[java]]>
+    </line>
+    <line>
+      <![CDATA[api]]>
+    </line>
+    <line>
+      <![CDATA[manual]]>
+    </line>
+    <line>
+      <![CDATA[Card name After sorting]]>
+    </line>
+    <line>
+      <![CDATA[api]]>
+    </line>
+    <line>
+      <![CDATA[java]]>
+    </line>
+    <line>
+      <![CDATA[manual]]>
+    </line>
+    <line>
+      <![CDATA[sql]]>
+    </line>
+    <line>
+      <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+    </line>
+    <line>
+      <![CDATA[LogOut option is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+    </line>
+    <line>
+      <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon boardname.]]>
+    </line>
+    <line>
+      <![CDATA[list successfully created and varified]]>
+    </line>
+    <line>
+      <![CDATA[Cards before sorting]]>
+    </line>
+    <line>
+      <![CDATA[sql]]>
+    </line>
+    <line>
+      <![CDATA[java]]>
+    </line>
+    <line>
+      <![CDATA[api]]>
+    </line>
+    <line>
+      <![CDATA[manual]]>
+    </line>
+    <line>
+      <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon boardname.]]>
+    </line>
+    <line>
+      <![CDATA[list successfully created and varified]]>
+    </line>
+    <line>
+      <![CDATA[Cards before sorting]]>
+    </line>
+    <line>
+      <![CDATA[sql]]>
+    </line>
+    <line>
+      <![CDATA[java]]>
+    </line>
+    <line>
+      <![CDATA[api]]>
+    </line>
+    <line>
+      <![CDATA[manual]]>
+    </line>
+    <line>
+      <![CDATA[Card name After sorting]]>
+    </line>
+    <line>
+      <![CDATA[api]]>
+    </line>
+    <line>
+      <![CDATA[java]]>
+    </line>
+    <line>
+      <![CDATA[manual]]>
+    </line>
+    <line>
+      <![CDATA[sql]]>
+    </line>
+    <line>
+      <![CDATA[Count of created lists in Board : 1]]>
+    </line>
+    <line>
+      <![CDATA[Ccount of cards created in list : 4]]>
+    </line>
+    <line>
+      <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+    </line>
+    <line>
+      <![CDATA[LogOut option is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+    </line>
+    <line>
+      <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon title.]]>
+    </line>
+    <line>
+      <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+    </line>
+    <line>
+      <![CDATA[Created board page is displayed and verified upon boardname.]]>
+    </line>
+    <line>
+      <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+    </line>
+    <line>
+      <![CDATA[List moved sucessfully: Fully loaded list cotains card]]>
+    </line>
+    <line>
+      <![CDATA[sql]]>
+    </line>
+    <line>
+      <![CDATA[java]]>
+    </line>
+    <line>
+      <![CDATA[api]]>
+    </line>
+    <line>
+      <![CDATA[manual]]>
+    </line>
+    <line>
+      <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+    </line>
+    <line>
+      <![CDATA[LogOut option is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+    </line>
+    <line>
+      <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-25T20:29:20 IST" name="TrelloHybridFramework" finished-at="2023-02-25T20:36:09 IST" duration-ms="409390">
+    <groups>
+    </groups>
+    <test started-at="2023-02-25T20:29:20 IST" name="Test" finished-at="2023-02-25T20:36:09 IST" duration-ms="409390">
+      <class name="trello.Trello_Test">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:29:20 IST" name="configBeforeMethod" finished-at="2023-02-25T20:29:29 IST" duration-ms="8813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="home_page_check()[pri:1, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:29:29 IST" name="home_page_check" finished-at="2023-02-25T20:29:40 IST" duration-ms="11224" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trello home page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello home page is displayed and verified upon url.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- home_page_check -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:29:40 IST" name="configAfterMethod" finished-at="2023-02-25T20:29:41 IST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:29:41 IST" name="configBeforeMethod" finished-at="2023-02-25T20:29:48 IST" duration-ms="6950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="login_page_check()[pri:2, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:29:48 IST" name="login_page_check" finished-at="2023-02-25T20:29:53 IST" duration-ms="5196" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trello login page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello login page is displayed and verified upon url.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_page_check -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:29:53 IST" name="configAfterMethod" finished-at="2023-02-25T20:29:55 IST" duration-ms="1839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:29:55 IST" name="configBeforeMethod" finished-at="2023-02-25T20:30:04 IST" duration-ms="9017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="login_To_Account()[pri:3, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:30:04 IST" name="login_To_Account" finished-at="2023-02-25T20:30:30 IST" duration-ms="26708" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[LogOut option is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_To_Account -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:30:30 IST" name="configAfterMethod" finished-at="2023-02-25T20:30:31 IST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:30:31 IST" name="configBeforeMethod" finished-at="2023-02-25T20:30:38 IST" duration-ms="7006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="create_and_delete_board()[pri:4, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:30:38 IST" name="create_and_delete_board" finished-at="2023-02-25T20:31:15 IST" duration-ms="36639" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon boardname.]]>
+            </line>
+            <line>
+              <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+            </line>
+            <line>
+              <![CDATA[LogOut option is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- create_and_delete_board -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:31:15 IST" name="configAfterMethod" finished-at="2023-02-25T20:31:15 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:31:15 IST" name="configBeforeMethod" finished-at="2023-02-25T20:31:21 IST" duration-ms="5354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="create_2_lists_in_board()[pri:5, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:31:21 IST" name="create_2_lists_in_board" finished-at="2023-02-25T20:32:10 IST" duration-ms="49617" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon boardname.]]>
+            </line>
+            <line>
+              <![CDATA[2 lists successfully created and varified upon count]]>
+            </line>
+            <line>
+              <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+            </line>
+            <line>
+              <![CDATA[LogOut option is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- create_2_lists_in_board -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:32:10 IST" name="configAfterMethod" finished-at="2023-02-25T20:32:11 IST" duration-ms="1275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:32:11 IST" name="configBeforeMethod" finished-at="2023-02-25T20:32:17 IST" duration-ms="5180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="swipe_2_lists()[pri:6, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:32:17 IST" name="swipe_2_lists" finished-at="2023-02-25T20:32:56 IST" duration-ms="38906" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon boardname.]]>
+            </line>
+            <line>
+              <![CDATA[2 lists successfully created and varified upon count]]>
+            </line>
+            <line>
+              <![CDATA[Order of Lists before swapping]]>
+            </line>
+            <line>
+              <![CDATA[vinay]]>
+            </line>
+            <line>
+              <![CDATA[kumar]]>
+            </line>
+            <line>
+              <![CDATA[Order of Lists after swapping]]>
+            </line>
+            <line>
+              <![CDATA[kumar]]>
+            </line>
+            <line>
+              <![CDATA[vinay]]>
+            </line>
+            <line>
+              <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+            </line>
+            <line>
+              <![CDATA[LogOut option is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- swipe_2_lists -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:32:56 IST" name="configAfterMethod" finished-at="2023-02-25T20:32:56 IST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:32:56 IST" name="configBeforeMethod" finished-at="2023-02-25T20:33:01 IST" duration-ms="5017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="sort_cards_alpabetically()[pri:7, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:33:01 IST" name="sort_cards_alpabetically" finished-at="2023-02-25T20:33:40 IST" duration-ms="38204" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon boardname.]]>
+            </line>
+            <line>
+              <![CDATA[list successfully created and varified]]>
+            </line>
+            <line>
+              <![CDATA[Cards before sorting]]>
+            </line>
+            <line>
+              <![CDATA[sql]]>
+            </line>
+            <line>
+              <![CDATA[java]]>
+            </line>
+            <line>
+              <![CDATA[api]]>
+            </line>
+            <line>
+              <![CDATA[manual]]>
+            </line>
+            <line>
+              <![CDATA[Card name After sorting]]>
+            </line>
+            <line>
+              <![CDATA[api]]>
+            </line>
+            <line>
+              <![CDATA[java]]>
+            </line>
+            <line>
+              <![CDATA[manual]]>
+            </line>
+            <line>
+              <![CDATA[sql]]>
+            </line>
+            <line>
+              <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+            </line>
+            <line>
+              <![CDATA[LogOut option is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sort_cards_alpabetically -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:33:40 IST" name="configAfterMethod" finished-at="2023-02-25T20:33:41 IST" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:33:41 IST" name="configBeforeMethod" finished-at="2023-02-25T20:33:50 IST" duration-ms="9142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method retried="true" signature="get_count_Of_lists_and_cards()[pri:8, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:33:50 IST" name="get_count_Of_lists_and_cards" finished-at="2023-02-25T20:34:27 IST" duration-ms="37229" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.className: js-sort-by-card-name' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.className: js-sort-by-card-name' (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.qspider.atlassian.genericutility.WebElementUtility.clickOnVisibleElement(WebElementUtility.java:24)
+at com.qspider.atlassian.pomrepository.TrelloCreatedBoardPage.sortCardsAlpabetically(TrelloCreatedBoardPage.java:299)
+at trello.Trello_Test.get_count_Of_lists_and_cards(Trello_Test.java:403)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".js\-sort\-by\-card\-name"}
+  (Session info: chrome=110.0.5481.105)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61d8548c8b52d227f26835f1f53f18f5, findElement {using=class name, value=js-sort-by-card-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62697/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61d8548c8b52d227f26835f1f53f18f5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon boardname.]]>
+            </line>
+            <line>
+              <![CDATA[list successfully created and varified]]>
+            </line>
+            <line>
+              <![CDATA[Cards before sorting]]>
+            </line>
+            <line>
+              <![CDATA[sql]]>
+            </line>
+            <line>
+              <![CDATA[java]]>
+            </line>
+            <line>
+              <![CDATA[api]]>
+            </line>
+            <line>
+              <![CDATA[manual]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- get_count_Of_lists_and_cards -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:34:28 IST" name="configAfterMethod" finished-at="2023-02-25T20:34:29 IST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:34:29 IST" name="configBeforeMethod" finished-at="2023-02-25T20:34:35 IST" duration-ms="6151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="get_count_Of_lists_and_cards()[pri:8, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:34:35 IST" name="get_count_Of_lists_and_cards" finished-at="2023-02-25T20:35:15 IST" duration-ms="39957" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon boardname.]]>
+            </line>
+            <line>
+              <![CDATA[list successfully created and varified]]>
+            </line>
+            <line>
+              <![CDATA[Cards before sorting]]>
+            </line>
+            <line>
+              <![CDATA[sql]]>
+            </line>
+            <line>
+              <![CDATA[java]]>
+            </line>
+            <line>
+              <![CDATA[api]]>
+            </line>
+            <line>
+              <![CDATA[manual]]>
+            </line>
+            <line>
+              <![CDATA[Card name After sorting]]>
+            </line>
+            <line>
+              <![CDATA[api]]>
+            </line>
+            <line>
+              <![CDATA[java]]>
+            </line>
+            <line>
+              <![CDATA[manual]]>
+            </line>
+            <line>
+              <![CDATA[sql]]>
+            </line>
+            <line>
+              <![CDATA[Count of created lists in Board : 1]]>
+            </line>
+            <line>
+              <![CDATA[Ccount of cards created in list : 4]]>
+            </line>
+            <line>
+              <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+            </line>
+            <line>
+              <![CDATA[LogOut option is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- get_count_Of_lists_and_cards -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:35:15 IST" name="configAfterMethod" finished-at="2023-02-25T20:35:16 IST" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:35:16 IST" name="configBeforeMethod" finished-at="2023-02-25T20:35:21 IST" duration-ms="5064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="move_loaded_list_to_another_board()[pri:9, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:35:21 IST" name="move_loaded_list_to_another_board" finished-at="2023-02-25T20:36:08 IST" duration-ms="47329" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trello login to continue page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon title.]]>
+            </line>
+            <line>
+              <![CDATA[Trello board page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon url contains boardname.]]>
+            </line>
+            <line>
+              <![CDATA[Created board page is displayed and verified upon boardname.]]>
+            </line>
+            <line>
+              <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+            </line>
+            <line>
+              <![CDATA[List moved sucessfully: Fully loaded list cotains card]]>
+            </line>
+            <line>
+              <![CDATA[sql]]>
+            </line>
+            <line>
+              <![CDATA[java]]>
+            </line>
+            <line>
+              <![CDATA[api]]>
+            </line>
+            <line>
+              <![CDATA[manual]]>
+            </line>
+            <line>
+              <![CDATA[Board is succefully deleted and varified on popup displayed]]>
+            </line>
+            <line>
+              <![CDATA[LogOut option is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account page is displayed and verified upon url contains email reference.]]>
+            </line>
+            <line>
+              <![CDATA[Log out of your Atlassian account is successfull and verified upon homepage URL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- move_loaded_list_to_another_board -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:trello.Trello_Test@6b09fb41]" started-at="2023-02-25T20:36:08 IST" name="configAfterMethod" finished-at="2023-02-25T20:36:09 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+      </class> <!-- trello.Trello_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- TrelloHybridFramework -->
+</testng-results>

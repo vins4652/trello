@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TrelloHybridFramework" class="navigator-link">
+              <span class="suite-name border-skipped">TrelloHybridFramework</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TrelloHybridFramework" class="navigator-link ">
+                    <span>C:\Users\Admin\eclipse-workspace\trelloHybridFrameWork\trelloHybrid.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TrelloHybridFramework" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TrelloHybridFramework" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TrelloHybridFramework" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TrelloHybridFramework" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TrelloHybridFramework" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TrelloHybridFramework" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,  1 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-TrelloHybridFramework" class="hide-methods skipped suite-TrelloHybridFramework"> (hide)</a> <!-- hide-methods skipped suite-TrelloHybridFramework -->
+                      <a href="#" panel-name="suite-TrelloHybridFramework" class="show-methods skipped suite-TrelloHybridFramework"> (show)</a> <!-- show-methods skipped suite-TrelloHybridFramework -->
+                    </span>
+                    <div class="method-list-content skipped suite-TrelloHybridFramework">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-TrelloHybridFramework" title="trello.Trello_Test" class="method navigator-link" hash-for-method="get_count_Of_lists_and_cards">get_count_Of_lists_and_cards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-TrelloHybridFramework -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TrelloHybridFramework" class="hide-methods passed suite-TrelloHybridFramework"> (hide)</a> <!-- hide-methods passed suite-TrelloHybridFramework -->
+                      <a href="#" panel-name="suite-TrelloHybridFramework" class="show-methods passed suite-TrelloHybridFramework"> (show)</a> <!-- show-methods passed suite-TrelloHybridFramework -->
+                    </span>
+                    <div class="method-list-content passed suite-TrelloHybridFramework">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TrelloHybridFramework" title="trello.Trello_Test" class="method navigator-link" hash-for-method="create_2_lists_in_board">create_2_lists_in_board</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TrelloHybridFramework" title="trello.Trello_Test" class="method navigator-link" hash-for-method="create_and_delete_board">create_and_delete_board</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TrelloHybridFramework" title="trello.Trello_Test" class="method navigator-link" hash-for-method="get_count_Of_lists_and_cards">get_count_Of_lists_and_cards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TrelloHybridFramework" title="trello.Trello_Test" class="method navigator-link" hash-for-method="home_page_check">home_page_check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TrelloHybridFramework" title="trello.Trello_Test" class="method navigator-link" hash-for-method="login_To_Account">login_To_Account</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TrelloHybridFramework" title="trello.Trello_Test" class="method navigator-link" hash-for-method="login_page_check">login_page_check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TrelloHybridFramework" title="trello.Trello_Test" class="method navigator-link" hash-for-method="move_loaded_list_to_another_board">move_loaded_list_to_another_board</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TrelloHybridFramework" title="trello.Trello_Test" class="method navigator-link" hash-for-method="sort_cards_alpabetically">sort_cards_alpabetically</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TrelloHybridFramework" title="trello.Trello_Test" class="method navigator-link" hash-for-method="swipe_2_lists">swipe_2_lists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TrelloHybridFramework -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TrelloHybridFramework" class="panel TrelloHybridFramework">
+          <div class="suite-TrelloHybridFramework-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">trello.Trello_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_count_Of_lists_and_cards">
+                  </a> <!-- get_count_Of_lists_and_cards -->
+                  <span class="method-name">get_count_Of_lists_and_cards</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.className: js-sort-by-card-name&apos; (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.qspider.atlassian.genericutility.WebElementUtility.clickOnVisibleElement(WebElementUtility.java:24)
+	at com.qspider.atlassian.pomrepository.TrelloCreatedBoardPage.sortCardsAlpabetically(TrelloCreatedBoardPage.java:299)
+	at trello.Trello_Test.get_count_Of_lists_and_cards(Trello_Test.java:403)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.js\-sort\-by\-card\-name&quot;}
+  (Session info: chrome=110.0.5481.105)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61d8548c8b52d227f26835f1f53f18f5, findElement {using=class name, value=js-sort-by-card-name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62697/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61d8548c8b52d227f26835f1f53f18f5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 29 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrelloHybridFramework-class-skipped -->
+          <div class="suite-TrelloHybridFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">trello.Trello_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_2_lists_in_board">
+                  </a> <!-- create_2_lists_in_board -->
+                  <span class="method-name">create_2_lists_in_board</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_and_delete_board">
+                  </a> <!-- create_and_delete_board -->
+                  <span class="method-name">create_and_delete_board</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_count_Of_lists_and_cards">
+                  </a> <!-- get_count_Of_lists_and_cards -->
+                  <span class="method-name">get_count_Of_lists_and_cards</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="home_page_check">
+                  </a> <!-- home_page_check -->
+                  <span class="method-name">home_page_check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_To_Account">
+                  </a> <!-- login_To_Account -->
+                  <span class="method-name">login_To_Account</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_page_check">
+                  </a> <!-- login_page_check -->
+                  <span class="method-name">login_page_check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="move_loaded_list_to_another_board">
+                  </a> <!-- move_loaded_list_to_another_board -->
+                  <span class="method-name">move_loaded_list_to_another_board</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sort_cards_alpabetically">
+                  </a> <!-- sort_cards_alpabetically -->
+                  <span class="method-name">sort_cards_alpabetically</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="swipe_2_lists">
+                  </a> <!-- swipe_2_lists -->
+                  <span class="method-name">swipe_2_lists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TrelloHybridFramework-class-passed -->
+        </div> <!-- panel TrelloHybridFramework -->
+        <div panel-name="test-xml-TrelloHybridFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\eclipse-workspace\trelloHybridFrameWork\trelloHybrid.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TrelloHybridFramework&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;analyzer.Listeners&quot;/&gt;
+    &lt;listener class-name=&quot;analyzer.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;trello.Trello_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- TrelloHybridFramework --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TrelloHybridFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TrelloHybridFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TrelloHybridFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TrelloHybridFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TrelloHybridFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TrelloHybridFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TrelloHybridFramework');
+function tableData_TrelloHybridFramework() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'create_2_lists_in_board')
+data.setCell(0, 2, 'trello.Trello_Test')
+data.setCell(0, 3, 49617);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'move_loaded_list_to_another_board')
+data.setCell(1, 2, 'trello.Trello_Test')
+data.setCell(1, 3, 47329);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'get_count_Of_lists_and_cards')
+data.setCell(2, 2, 'trello.Trello_Test')
+data.setCell(2, 3, 39957);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'swipe_2_lists')
+data.setCell(3, 2, 'trello.Trello_Test')
+data.setCell(3, 3, 38906);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sort_cards_alpabetically')
+data.setCell(4, 2, 'trello.Trello_Test')
+data.setCell(4, 3, 38204);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'get_count_Of_lists_and_cards')
+data.setCell(5, 2, 'trello.Trello_Test')
+data.setCell(5, 3, 37229);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'create_and_delete_board')
+data.setCell(6, 2, 'trello.Trello_Test')
+data.setCell(6, 3, 36639);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'login_To_Account')
+data.setCell(7, 2, 'trello.Trello_Test')
+data.setCell(7, 3, 26708);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'home_page_check')
+data.setCell(8, 2, 'trello.Trello_Test')
+data.setCell(8, 3, 11224);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'login_page_check')
+data.setCell(9, 2, 'trello.Trello_Test')
+data.setCell(9, 3, 5196);
+window.suiteTableData['TrelloHybridFramework']= { tableData: data, tableDiv: 'times-div-TrelloHybridFramework'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-TrelloHybridFramework">
+              </div> <!-- times-div-TrelloHybridFramework -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TrelloHybridFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TrelloHybridFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">swipe_2_lists</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trello login to continue page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon url contains boardname.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon boardname.</span>
+                <span class="reporter-method-output">2 lists successfully created and varified upon count</span>
+                <span class="reporter-method-output">Order of Lists before swapping</span>
+                <span class="reporter-method-output">vinay</span>
+                <span class="reporter-method-output">kumar</span>
+                <span class="reporter-method-output">Order of Lists after swapping</span>
+                <span class="reporter-method-output">kumar</span>
+                <span class="reporter-method-output">vinay</span>
+                <span class="reporter-method-output">Board is succefully deleted and varified on popup displayed</span>
+                <span class="reporter-method-output">LogOut option is Displayed</span>
+                <span class="reporter-method-output">Log out of your Atlassian account page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Log out of your Atlassian account is successfull and verified upon homepage URL</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">move_loaded_list_to_another_board</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trello login to continue page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon url contains boardname.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon boardname.</span>
+                <span class="reporter-method-output">Board is succefully deleted and varified on popup displayed</span>
+                <span class="reporter-method-output">List moved sucessfully: Fully loaded list cotains card</span>
+                <span class="reporter-method-output">sql</span>
+                <span class="reporter-method-output">java</span>
+                <span class="reporter-method-output">api</span>
+                <span class="reporter-method-output">manual</span>
+                <span class="reporter-method-output">Board is succefully deleted and varified on popup displayed</span>
+                <span class="reporter-method-output">LogOut option is Displayed</span>
+                <span class="reporter-method-output">Log out of your Atlassian account page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Log out of your Atlassian account is successfull and verified upon homepage URL</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login_To_Account</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trello login to continue page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">LogOut option is Displayed</span>
+                <span class="reporter-method-output">Log out of your Atlassian account page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Log out of your Atlassian account is successfull and verified upon homepage URL</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">home_page_check</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trello home page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello home page is displayed and verified upon url.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sort_cards_alpabetically</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trello login to continue page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon url contains boardname.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon boardname.</span>
+                <span class="reporter-method-output">list successfully created and varified</span>
+                <span class="reporter-method-output">Cards before sorting</span>
+                <span class="reporter-method-output">sql</span>
+                <span class="reporter-method-output">java</span>
+                <span class="reporter-method-output">api</span>
+                <span class="reporter-method-output">manual</span>
+                <span class="reporter-method-output">Card name After sorting</span>
+                <span class="reporter-method-output">api</span>
+                <span class="reporter-method-output">java</span>
+                <span class="reporter-method-output">manual</span>
+                <span class="reporter-method-output">sql</span>
+                <span class="reporter-method-output">Board is succefully deleted and varified on popup displayed</span>
+                <span class="reporter-method-output">LogOut option is Displayed</span>
+                <span class="reporter-method-output">Log out of your Atlassian account page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Log out of your Atlassian account is successfull and verified upon homepage URL</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">get_count_Of_lists_and_cards</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trello login to continue page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon url contains boardname.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon boardname.</span>
+                <span class="reporter-method-output">list successfully created and varified</span>
+                <span class="reporter-method-output">Cards before sorting</span>
+                <span class="reporter-method-output">sql</span>
+                <span class="reporter-method-output">java</span>
+                <span class="reporter-method-output">api</span>
+                <span class="reporter-method-output">manual</span>
+                <span class="reporter-method-output">Card name After sorting</span>
+                <span class="reporter-method-output">api</span>
+                <span class="reporter-method-output">java</span>
+                <span class="reporter-method-output">manual</span>
+                <span class="reporter-method-output">sql</span>
+                <span class="reporter-method-output">Count of created lists in Board : 1</span>
+                <span class="reporter-method-output">Ccount of cards created in list : 4</span>
+                <span class="reporter-method-output">Board is succefully deleted and varified on popup displayed</span>
+                <span class="reporter-method-output">LogOut option is Displayed</span>
+                <span class="reporter-method-output">Log out of your Atlassian account page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Log out of your Atlassian account is successfull and verified upon homepage URL</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">create_2_lists_in_board</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trello login to continue page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon url contains boardname.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon boardname.</span>
+                <span class="reporter-method-output">2 lists successfully created and varified upon count</span>
+                <span class="reporter-method-output">Board is succefully deleted and varified on popup displayed</span>
+                <span class="reporter-method-output">LogOut option is Displayed</span>
+                <span class="reporter-method-output">Log out of your Atlassian account page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Log out of your Atlassian account is successfull and verified upon homepage URL</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">create_and_delete_board</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trello login to continue page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon url contains boardname.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon boardname.</span>
+                <span class="reporter-method-output">Board is succefully deleted and varified on popup displayed</span>
+                <span class="reporter-method-output">LogOut option is Displayed</span>
+                <span class="reporter-method-output">Log out of your Atlassian account page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Log out of your Atlassian account is successfull and verified upon homepage URL</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login_page_check</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trello login page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello login page is displayed and verified upon url.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">get_count_Of_lists_and_cards</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Trello login to continue page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon title.</span>
+                <span class="reporter-method-output">Trello board page is displayed and verified upon url contains email reference.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon url contains boardname.</span>
+                <span class="reporter-method-output">Created board page is displayed and verified upon boardname.</span>
+                <span class="reporter-method-output">list successfully created and varified</span>
+                <span class="reporter-method-output">Cards before sorting</span>
+                <span class="reporter-method-output">sql</span>
+                <span class="reporter-method-output">java</span>
+                <span class="reporter-method-output">api</span>
+                <span class="reporter-method-output">manual</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TrelloHybridFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TrelloHybridFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">trello.Trello_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">home_page_check</span>
+                <span class="method-start">8814 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod</span>
+                <span class="method-start">20050 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod</span>
+                <span class="method-start">20687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_page_check</span>
+                <span class="method-start">27637 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod</span>
+                <span class="method-start">32848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod</span>
+                <span class="method-start">34688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login_To_Account</span>
+                <span class="method-start">43705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod</span>
+                <span class="method-start">70416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod</span>
+                <span class="method-start">70968 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">create_and_delete_board</span>
+                <span class="method-start">77974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod</span>
+                <span class="method-start">114615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod</span>
+                <span class="method-start">115240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">create_2_lists_in_board</span>
+                <span class="method-start">120594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod</span>
+                <span class="method-start">170213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod</span>
+                <span class="method-start">171489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">swipe_2_lists</span>
+                <span class="method-start">176669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod</span>
+                <span class="method-start">215579 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod</span>
+                <span class="method-start">216448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sort_cards_alpabetically</span>
+                <span class="method-start">221465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod</span>
+                <span class="method-start">259672 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod</span>
+                <span class="method-start">260889 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">get_count_Of_lists_and_cards</span>
+                <span class="method-start">270031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod</span>
+                <span class="method-start">308161 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod</span>
+                <span class="method-start">308926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">get_count_Of_lists_and_cards</span>
+                <span class="method-start">315077 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod</span>
+                <span class="method-start">355036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMethod</span>
+                <span class="method-start">355954 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">move_loaded_list_to_another_board</span>
+                <span class="method-start">361018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">configAfterMethod</span>
+                <span class="method-start">408349 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

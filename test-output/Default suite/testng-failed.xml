@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="trello.Trello_Test">
+        <methods>
+          <include name="configAfterMethod"/>
+          <include name="sort_cards_alpabetically"/>
+          <include name="create_2_lists_in_board"/>
+          <include name="get_count_Of_lists_and_cards"/>
+          <include name="swipe_2_lists"/>
+          <include name="configBeforeMethod"/>
+          <include name="move_loaded_list_to_another_board"/>
+        </methods>
+      </class> <!-- trello.Trello_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

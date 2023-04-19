@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="@149vinay"/>
+  <parameter name="url" value="https://trello.com/"/>
+  <parameter name="username" value="vinaymannur9@gmail.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="trello.ParameterizedTestCaseExecution">
+        <methods>
+          <include name="configBeforeMethod"/>
+          <include name="configAfterMethod"/>
+          <include name="loginpageCheck"/>
+        </methods>
+      </class> <!-- trello.ParameterizedTestCaseExecution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
