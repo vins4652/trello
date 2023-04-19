@@ -25,7 +25,7 @@ public class BaseClassTrello {
 	public void configBeforeMethod() throws IOException {
 		// launch the browser
 		//String browser = fileUtil.readCommondata("browser");
-		String browser = System.getProperty("Browser");
+		String browser = System.getProperty("browser");
 		if (browser.equals("chrome")) {
 			driver = new ChromeDriver();
 		} else if (browser.equals("firefox")) {
