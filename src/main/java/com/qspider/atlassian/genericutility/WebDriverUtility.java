@@ -1,12 +1,12 @@
 package com.qspider.atlassian.genericutility;
 
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 /**
  * WebDriverUtility can be used get the WebDriver related waits and control transfers
  * @author Vinaykumar Mannur

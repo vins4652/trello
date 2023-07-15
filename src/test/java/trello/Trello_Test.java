@@ -1,16 +1,11 @@
 package trello;
 
+import com.qspider.atlassian.genericutility.BaseClassTrello;
+import com.qspider.atlassian.pomrepository.*;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-
-import com.qspider.atlassian.genericutility.BaseClassTrello;
-import com.qspider.atlassian.pomrepository.LogoutOfAtlassianAccountPage;
-import com.qspider.atlassian.pomrepository.TrelloAccountBoardPage;
-import com.qspider.atlassian.pomrepository.TrelloCreatedBoardPage;
-import com.qspider.atlassian.pomrepository.TrelloLoginPage;
-import com.qspider.atlassian.pomrepository.TrelloLoginToContinuePage;
 
 public class Trello_Test extends BaseClassTrello {
 	

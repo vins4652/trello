@@ -1,8 +1,6 @@
 package com.qspider.atlassian.pomrepository;
 
-import java.io.IOException;
-import java.util.List;
-
+import com.qspider.atlassian.genericutility.WebElementUtility;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +10,8 @@ import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import com.qspider.atlassian.genericutility.WebElementUtility;
+import java.io.IOException;
+import java.util.List;
 
 public class TrelloCreatedBoardPage extends WebElementUtility {
 	
@@ -130,7 +129,7 @@ public class TrelloCreatedBoardPage extends WebElementUtility {
 	
 	//===========================================================//
 	
-	@FindBy(xpath = "//div[(@class='board-header-btn mod-board-name inline-rename-board js-rename-board')]//h1")
+	@FindBy(xpath = "//h1[@data-testid='board-name-display']")
 	private WebElement boardNameText;
 
 	public String boardNameText() {
@@ -199,7 +198,7 @@ public class TrelloCreatedBoardPage extends WebElementUtility {
 	//List related elements//
 	//======================================================//
 	
-	@FindBy(name = "name")
+	@FindBy(xpath = "//input[@class='list-name-input']")
 	private WebElement enterListTitleTextField;
 	
 	public void enterListTitle(String listTitle) {

@@ -1,7 +1,6 @@
 package com.qspider.atlassian.genericutility;
 
-import java.io.IOException;
-
+import com.qspider.atlassian.pomrepository.TrelloHomePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -9,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import com.qspider.atlassian.pomrepository.TrelloHomePage;
+import java.io.IOException;
 
 public class BaseClassTrello {
 	public WebDriver driver;
@@ -25,7 +24,7 @@ public class BaseClassTrello {
 	public void configBeforeMethod() throws IOException {
 		// launch the browser
 		//String browser = fileUtil.readCommondata("browser");
-		String browser = System.getProperty("browser");
+		String browser = System.getProperty("browser")!=null?System.getProperty("browser"):fileUtil.readCommondata("browser");
 		if (browser.equals("chrome")) {
 			driver = new ChromeDriver();
 		} else if (browser.equals("firefox")) {

@@ -1,14 +1,10 @@
 package com.qspider.atlassian.genericutility;
 
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.*;
+
 import java.io.FileInputStream;
 import java.io.IOException;
-
-import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
 /**
  * ExcelUtility can be used to read the test case specific data from the excel sheet
  * @author Vinaykumar Mannur
