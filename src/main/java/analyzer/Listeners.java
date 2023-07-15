@@ -1,18 +1,17 @@
 package analyzer;
 
 
-import java.io.IOException;
-
-import org.openqa.selenium.WebDriver;
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.qspider.atlassian.genericutility.BaseClassTrello;
 import com.qspider.atlassian.genericutility.ExtentReportForTest;
+import org.openqa.selenium.WebDriver;
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+import java.io.IOException;
 
 
 public class Listeners extends BaseClassTrello implements ITestListener {

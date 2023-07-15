@@ -1,11 +1,11 @@
 package com.qspider.atlassian.genericutility;
 
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 /**
  * This Method will supply the explicit wait to the denoted action to complete the task 
  * @author Vinaykumar Mannur
